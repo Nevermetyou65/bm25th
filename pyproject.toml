@@ -1,0 +1,20 @@
+[project]
+name = "bm25th"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4.0",
+    "polars>=1.36.1",
+    "pythainlp>=5.2.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.16.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "tqdm>=4.67.1",
+]
