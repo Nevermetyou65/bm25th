@@ -8,6 +8,7 @@ dependencies = [
     "numpy>=2.4.0",
     "polars>=1.36.1",
     "pythainlp>=5.2.0",
+    "regex>=2025.11.3",
     "scikit-learn>=1.8.0",
     "scipy>=1.16.3",
 ]
